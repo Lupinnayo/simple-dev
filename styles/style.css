@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#home {
+  height: 100vh;
+  background: url('assets/background.jpg') no-repeat center center/cover;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.typing-text {
+  font-size: 45px;
+  margin-top: 25px;
+  font-weight: bold;
+  border-right: 3px solid black; /* Cursor effect */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  display: inline-block;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+
+  <table border="1"> 
+    <tr>
+      <th>Sno</th>
+      <th>Flower Name</th>
+      <th>Quantity</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Rose</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>lily</td>
+      <td>10</td>
+    </tr>
+</table>
+
+<br>
+
+<center>
+
+<h1 style="color: blue;">Facebook</h1>
+<p>Connect with friends and the world around you on facebook </p>
+
+<input type="text" style="width: 250px; height: 30px;"  placeholder="Email or Phone"><br style="padding-top: 10px;">
+<input type="password" style="width: 250px; height: 30px;" placeholder="Password">
+
+
+<br>
+
+<div>
+
+  
+
+</div>
+
+</center>
+
+<h3>Flower</h3>
+  <ol type="I">
+    <li>Tulip
+      <ul>
+        <li>tulip</li>
+        <li>flower</li>
+      </ul>
+    </li>
+    <li>Lily
+      <ol type="a">
+        <li>rose</li>
+        <li>heng</li>
+      </ol>
+    </li>
+    <li>sakura
+      <ol>
+        <li>sun rise</li>
+        <li>sun set</li>
+      </ol>
+    </li>
+
+    <li>sun flower
+      <ul type="square">
+        <li>kk</li>
+        <li>tt</li>
+      </ul>
+    </li>
+  </ol>  
+
+  <center>
+   
+    <table border="1 dot">
+      <th>Hello</th>
+      <th>Ni hao</th>
+    </table>
+
+    
+    
+
+   
+
+  </center>
+  <script>
+    document.querySelectorAll('.toggle-button').forEach(button => {
+        button.addEventListener('click', function() {
+            document.querySelectorAll('.toggle-button').forEach(btn => btn.classList.remove('is-toggled'));
+            this.classList.add('is-toggled');
+        });
+    });
+</script>
+</body>
+</html>
